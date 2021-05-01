@@ -20,19 +20,33 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 @media (max-width: 480px) {
   .header {
-    width: 940px;
+    width: 430px;
+  }
+  .header-list li {
+    padding: 40px 10px 0 0;
+    font-size: 13px;
   }
   .main {
-    width: 860px;
-    height: 1600px
+    width: 350px;
+    height: 500px
   }
   footer {
-    width: 860px;
+    width: 350px;
+  }
+  .footer-list li {
+    font-size: 15px;
+  }
+  .copy-container {
+    padding-top: 0;
+    font-size: 30px;
+  }
+  .section-title {
+    padding-top: 0px;
   }
   .contents-item img{
-    width: 500px;
-    height: 400px;
-    padding-top: 50px;
+    width: 200px;
+    height: 100px;
+    padding-top: 20px;
   }
 }
 
@@ -40,10 +54,24 @@ h1, h2, h3, h4, h5, h6, p, div {
   .main {
     height: 1000px;
   }
+  .header-list li {
+    padding: 33px 60px;
+    font-size: 20px;
+  }
   .contents-item img{
     width: 400px;
     height: 300px;
     padding-top: 30px;
+  }
+  .copy-container {
+    padding-top: 40px;
+    font-size: 40px;
+  }
+  .section-title {
+    padding-top: 20px;
+  }
+  .footer-list li {
+    font-size: 20px;
   }
 }
 
@@ -63,8 +91,6 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 .header-list li {
   float: left;
-  padding: 33px 60px;
-  font-size: 20px
 }
 
 .header-list a {
@@ -85,9 +111,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 .copy-container {
-  font-size: 40px;
   text-align: center;
-  padding-top: 40px
 }
 
 .contents {
@@ -100,7 +124,6 @@ h1, h2, h3, h4, h5, h6, p, div {
   font-size: 28px;
   padding-bottom: 15px;
   margin-bottom: 30px;
-  padding-top: 20px;
 }
 
 .section-title p {
@@ -128,7 +151,6 @@ footer {
 
 .footer-list li {
   padding: 10px;
-  font-size: 20px;
 }
 
 .footer-list a {
@@ -138,6 +160,6 @@ footer {
 }
 
 .logo {
-  width: 170px;
+  width: 140px;
   margin-top: 10px;
 }
